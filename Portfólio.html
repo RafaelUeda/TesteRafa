@@ -1,26 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <style>
-            #background1 {
-                height: 100vh;
-                width: 100vw;
-                background-color: #2a2ac0;
-                background-image: linear-gradient(to right, #020024, #00d4ff); 
-            }
-    </style>
-    <div id="background1">
-    <body>
-    
-        <h1 style="text-align: center; font-size: 25px; font-family: monospace;">Sobre mim...</h1>
-    </body>
-    </div>
-    <ul class="nav">
-        <li><a href="#na">Home</a></li>
-        <li><a href="#nb">Mercado</a></li>
-        <li><a href="#nc">Comércio</a></li>
-        <li><a href="#nd">Indústria</a></li>
-        <li><a href="#ne">Insumos</a></li>
-        <li><a href="#nf">Rural</a></li>
-        <li><a href="#ng">Contato</a></li>
-        </ul>
+<head>
+<style>
+#background1 {
+  height: 100vmax;
+  width: 100vmax;
+  background-color: #2a2ac0;
+  background-image: linear-gradient(to right, #0e0b41, #00d4ff); 
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  background-image: linear-gradient(to left, rgb(77, 67, 67), rgb(133, 122, 122));
+}
+
+li {
+  float: left;
+  border-left: black;
+}
+
+li {
+  border-right: 5px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: rgb(104, 104, 212);
+}
+
+</style>
+</head>
+<body>
+<div id="background1">
+
+<ul>
+  <li><a class="active" href="file:///C:/Users/labinfo/Desktop/RafaelUeda/Portf%C3%B3lio.html">Início</a></li>
+  <li><a href="Projetos.com">Projetos</a></li>
+  <li><a href="Contatos.com">Contatos</a></li>
+  <li style="float:right"><a href="Sobre mim">Sobre mim</a></li>
+</ul>
+
+<h1 style="text-align: center; font-size: 25px; font-family: monospace;">Meu nome é Rafael Felipe Ueda, tenho 19 anos e estou no segundo ano de Ciências da Computação na Unidade Unifil Filadélfia</h1>
+</body>
+</div>
 </html>
